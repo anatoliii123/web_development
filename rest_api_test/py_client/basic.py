@@ -11,6 +11,10 @@ print(get_response.text) #print raw text response
 
 
 
+
+
+print(get_response.json())
+print(get_response.status_code)
 # JAVA SCRIPT OBJECT NOTATION:
 #
 # "data": "",
