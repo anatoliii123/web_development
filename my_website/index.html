@@ -4,48 +4,44 @@
 
 <head>
   <style>
-    body {background-color: darkgreen;}
-    h1   {color: blue;}
-    h4   {color: white;}
-    p    {color: white;}
+
+    body {background-color: LemonChiffon;  font-size:10px;font-family:'COMIC SANS MS'}
+
+#form-wrapper {     
+       position: absolute;
+       top: 0;
+       bottom: 0;
+       width: 100%;
+}
   </style>
 </head>
 
 
 
-<form action="action_page.php" method="post">
-  <div class="imgcontainer">
-  </div>
-
-  <div class="container">
-    <label for="uname"><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
-
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
-
-    <a href = "landingpage.html"><input type = "button" style = "color:red; height:100px;width:125px; font-size:10px;font-family:'COMIC SANS MS' " value = "LOG TO GLOBAL CHAT"/></a>
-    <label>
-      <input type="checkbox" checked="checked" name="remember"> Remember me
-    </label>
-  </div>
-
-  <div class="container" style="background-color:#f1f1f1">
-    <button type="button" class="cancelbtn">Cancel</button>
-    <span class="psw">Forgot <a href="#">password?</a></span>
-  </div>
-</form>
-
-
-
 <body>
-<h2>Web Development - Home Sample</h2>
-<h4>Contact Info - anton.ivanov.t2@gmail.com</h4>
+<form action="action_page.php" method="post">
+ <body>
+    <div id="form-wrapper">
+        <form>
+            <label> </label>   
+            <input type="text" placeholder="Enter Username" name="username" required>  
+            <label> </label>   
+            <input type="password" placeholder="Enter Password" name="password" required>  
+           <a href = "landingpage.html"><input type = "button" style = "color:red; height:75px;width:100px; font-size:10px;font-family:'COMIC SANS MS' " value = "LOG-IN"/></a>   
+              
+        </form>
+    </div>
 
 <p><br /><br /></p>
 
-<p>HTML, CSS</p>
-<p>2022</p>
+<h1 style="text-align:left; color:red;">Web Development - Home Sample</h2>
+<h1 style="text-align:left; color:red;">Contact Info - anton.ivanov.t2@gmail.com</h4>
+
+<p><br /><br /></p>
+
+</div>
+<h2  style="text-align:left; color:red;">HTML, CSS</h5>
+<h2  style="text-align:left; color:red;">2022</h5>
 
 
 </body>
