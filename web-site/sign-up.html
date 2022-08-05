@@ -1,11 +1,99 @@
 <!DOCTYPE html>
 <html>
 <head>
+<style>
+html {
+ background-image: url('back.jpg');
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+}
+.container {
+    color:white;
+   
+}
 
+</style>
 </head>
 <body>
 <div id="section">
 
 </div>
+
+<form action="action_page.php" style="border:1px solid #ccc">
+  <div class="container">
+    <h1>Sign Up</h1>
+    <p style="color:gold;">Please fill in this form to buy a gold membership.</p>
+    <hr>
+<table>
+<tr>
+    <td align="right"><label for="email"><b>Nickname</b></label> </td>
+   <td align="right"> <input type="text" placeholder="Enter Email" name="email" required></td>
+</tr>
+<tr>
+    <td align="right"><label for="psw"><b>Username</b></label>
+    <td align="right"><input type="password" placeholder="Enter Password" name="psw" required></td>
+</tr>
+<tr>
+    <td align="right"><label for="psw"><b>Password</b></label>
+    <td align="right"><input type="password" placeholder="Enter Password" name="psw" required></td>
+</tr>
+<tr>
+    <td align="right"><label for="psw-repeat"><b>Repeat Password</b></label></td>
+    <td align="left"><input type="password" placeholder="Repeat Password" name="psw-repeat" required></td>
+</tr>
+<tr>
+    <td align="right"><label for="email"><b>Full Name</b></label> </td>
+   <td align="right"> <input type="text" placeholder="Enter Email" name="email" required></td>
+</tr>
+<tr>
+    <td align="right"><label for="psw"><b>Email</b></label>
+    <td align="right"><input type="password" placeholder="Enter Password" name="psw" required></td>
+</tr>
+<tr>
+  <td align="right"><label for="email"><b>Address</b></label> </td>
+   <td align="right"> <input type="text" placeholder="Enter Email" name="email" required></td>
+</tr>
+<tr>
+    <td align="right"><label for="psw"><b> City</b></label>
+    <td align="right"><input type="password" placeholder="Enter Password" name="psw" required></td>
+</tr>
+<tr>
+ <td align="right"><label for="email"><b>State</b></label> </td>
+   <td align="right"> <input type="text" placeholder="Enter Email" name="email" required></td>
+</tr>
+<tr>
+    <td align="right"><label for="psw"><b>Zip</b></label>
+    <td align="right"><input type="password" placeholder="Enter Password" name="psw" required></td>
+</tr>
+     
+   <td align="right"><label for="email"><b>Exp Year</b></label> </td>
+   <td align="left"> <input type="text" placeholder="Enter Email" name="email" required></td>
+</tr>
+<tr>
+    <td align="right"><label for="psw"><b>CVV</b></label>
+    <td align="left"><input type="password" placeholder="Enter Password" name="psw" required></td>
+</tr>
+   <td align="right"><label for="email"><b>Name on Card</b></label> </td>
+   <td align="left"> <input type="text" placeholder="Enter Email" name="email" required></td>
+</tr>
+<tr>
+    <td align="right"><label for="psw"><b>Credit card number</b></label>
+    <td align="left"><input type="password" placeholder="Enter Password" name="psw" required></td>
+</tr>
+<tr>
+ <td align="right"><label for="email"><b>Exp Month</b></label> </td>
+   <td align="left"> <input type="text" placeholder="Enter Email" name="email" required></td>
+</tr>
+</table>
+    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+    <div class="clearfix">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn">Sign Up</button>
+    </div>
+  </div>
+
+</form>
 </body>
 </html>
